@@ -24,4 +24,4 @@ R, Python, Git, Excel, SQL
 
 ## 🌐 Links
 - Portfolio: https://mdingi.co.za
-- LinkedIn: https://www.linkedin.com/in/sbusiso-s-mdingi/
+- LinkedIn: https://www.linkedin.com/in/ssmdingi/
