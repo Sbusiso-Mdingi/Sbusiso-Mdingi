@@ -1,9 +1,13 @@
 # Hey, I'm Sbusiso 👋
 
+**Actuarial science graduate · Data scientist · Quantitative and risk analyst**
+
 **I'd rather show you the model than tell you about it.**
 
-I'm an actuarial science graduate from the University of the Free State, finishing my BSc Honours in Risk Analysis and taking MSc Financial Engineering modules at WorldQuant University. I build the things I talk about:
-- Pricing and risk models
+I'm an actuarial science graduate from the University of the Free State, finishing my BSc Honours in Risk Analysis and taking MSc Financial Engineering modules at WorldQuant University. I build the things I talk about, in Python, R and SQL:
+- Actuarial pricing, valuation and capital models (SAM, IFRS 17)
+- Risk and quantitative models: VaR, stress testing, GARCH, copulas
+- Machine learning and statistical models, validated on data they haven't seen
 - Forecasting systems with live data behind them
 - The software and pipelines that keep them running
 
@@ -21,8 +25,11 @@ than about a clever result stuck in a notebook. If it can't survive contact with
 
 ### What I've built
 
+**🏦 [Mdingi Life](https://github.com/Sbusiso-Mdingi/mdingi-life)**
+A fictional South African life insurer with 5,000 annuities and 50,000 funeral policies, modelled end to end on real data. Lee-Carter, CBD and Renshaw-Haberman mortality on Stats SA deaths, yield curves on 4,610 National Treasury bond auctions, key-rate ALM, the SAM standard-formula SCR (R423m), a 1,000-scenario economic scenario generator, five stress tests and an IFRS 17 CSM roll-forward. Key-rate matching lifts solvency cover from 0.94 to 1.15, but only 60.1% of scenarios stay covered. [Live dashboard](https://mdingi-life.azurewebsites.net).
+
 **🏥 Sequrin Technologies**
-My startup. Claims-integrity software for South African medical schemes: claims analytics, explainable risk signals and investigator workflows, running on AWS with Docker services and infrastructure as code. Private, but the story is on [mdingi.co.za](https://mdingi.co.za/work/sequrin-healthcare-claims).
+My startup. Claims-integrity software for South African medical schemes: claims analytics, explainable risk signals and investigator workflows, running on AWS with Docker services and infrastructure as code. Behind it sits an internal workforce of 6 production and 7 pilot AI agents on Amazon Bedrock AgentCore, with least-privilege IAM and human approval gates. Private, but the story is on [mdingi.co.za](https://mdingi.co.za/work/sequrin-healthcare-claims).
 
 **📈 [Copula-GARCH Pairs Trading](https://github.com/Sbusiso-Mdingi/jse-statistical-arbitrage)**
 Standard Bank against its peers, with ARMA-GARCH margins and a Student t copula. The honours version of this looked great: 6.2% CAGR and a 0.90 Sharpe. Then I rebuilt it properly, with rules fixed on 2010 to 2019, one validation run on 2020 to 2026, and costs on every trade, and it came out at 0.3% and 0.08. That second number is the one I trust, and it's [scored live](https://mdingi-jse-pairs.azurewebsites.net) on days the model has never seen.
@@ -39,7 +46,7 @@ Global and local Moran's I over seven World Bank indicators for the 16 SADC coun
 **🔐 [Secure Steganographic Messaging](https://github.com/Sbusiso-Mdingi/stego-messenger)**
 The odd one out: AES-256-GCM encryption hidden in image pixels, then attacked with the statistical tests used to catch it. Invisible to the eye, visible to RS steganalysis. Turns out "quant" and "security" scratch the same itch: both are about finding what's hidden in the noise.
 
-**Also:** a [health insurance pricing model](https://github.com/Sbusiso-Mdingi/health-insurance-pricing-model) in R with a Shiny dashboard, and [cross-line tail risk](https://github.com/Sbusiso-Mdingi/Copula-Cross-Line-Insurance-Risk) between life and property catastrophe losses with copulas.
+**Also:** a [health insurance pricing model](https://github.com/Sbusiso-Mdingi/health-insurance-pricing-model) in R (negative binomial frequency and Gamma severity GLMs on 100,000 members, holdout Gini 0.369, [live calculator](https://mdingi.co.za/work/health-insurance-pricing-model)), and [cross-line tail risk](https://github.com/Sbusiso-Mdingi/Copula-Cross-Line-Insurance-Risk) between life and property catastrophe losses with copulas.
 
 ---
 
@@ -55,8 +62,9 @@ The odd one out: AES-256-GCM encryption hidden in image pixels, then attacked wi
 ### Toolbox
 
 `R` · `Python` · `SQL` · `JavaScript` · `VBA` · `LaTeX` · `Git`
-`GARCH` · `Copulas` · `GLMs` · `Spatial statistics & kriging` · `Discrete choice modelling` · `Monte Carlo simulation` · `Forecasting`
-`AWS` · `Azure` · `Google Cloud` · `Docker` · `Linux` · `FastAPI` · `Shiny` · `React`
+`Pricing & profit testing` · `SAM / Solvency II` · `IFRS 17` · `Mortality modelling` · `VaR & stress testing`
+`Machine learning` · `GARCH` · `Copulas` · `GLMs` · `Spatial statistics & kriging` · `Discrete choice modelling` · `Monte Carlo simulation` · `Forecasting`
+`AWS (Bedrock AgentCore)` · `Azure` · `Google Cloud` · `Docker` · `Linux` · `FastAPI` · `Shiny` · `React`
 
 ---
 
